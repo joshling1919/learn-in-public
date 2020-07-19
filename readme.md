@@ -3,7 +3,7 @@ public](https://www.swyx.io/writing/learn-in-public/) is super intriguing to me.
 
 It appeals to my educator's side, and I've personally benefitted a lot from
 others who've embraced this approach. One of my favorite sites, [Tania
-Rascia's](https://www.taniarascia.com/) follows this approach.
+Rascia's](https://www.taniarascia.com/), follows this approach.
 
 It also intimidates me, which is why I think I should try it.
 
