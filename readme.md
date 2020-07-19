@@ -17,7 +17,7 @@ To kick that fear, I might have to just be more comfortable with unstructured
 thoughts being out in the open. Otherwise, if I keep waiting for thoughts to
 become structured, then I'll likely end up not writing/publishing anything.
 
-To start off in a bite-sized approach. It might just be that any time I hit a
+To start off with a bite-sized approach. It might just be that any time I hit a
 bug, I start a new post and document the process for debugging. This post would
 include:
 
