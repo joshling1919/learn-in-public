@@ -1,5 +1,3 @@
-# Learn in public 
-
 The concept of [learning in
 public](https://www.swyx.io/writing/learn-in-public/) is super intriguing to me.
 
