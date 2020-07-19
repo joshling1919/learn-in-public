@@ -1,4 +1,4 @@
-# [[Learn in public]]
+# Learn in public 
 
 The concept of [learning in
 public](https://www.swyx.io/writing/learn-in-public/) is super intriguing to me.
@@ -12,7 +12,7 @@ It also intimidates me, which is why I think should try it.
 
 ## Stuff I want to learn
 
-- [ ] [[TypeScript]]
-- [ ] [[Vim]]
+- [ ] [[typescript.md]]
+- [ ] [[vim.md]]
 
 
