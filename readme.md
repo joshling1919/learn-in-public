@@ -17,7 +17,7 @@ To kick that fear, I might have to just be more comfortable with unstructured
 thoughts being out in the open. Otherwise, if I keep waiting for thoughts to
 become structured, then I'll likely end up not writing/publishing anything.
 
-To start, I'll have an unstructured series of `Today I Learned (TIL) notes,
+To start, I'll have an unstructured series of `Today I Learned (TIL)` notes,
 where I jot down things that I'm learning each day. Then, each week, I'll try to
 sum up those unstructured thoughts into a more thought-out post.
 
