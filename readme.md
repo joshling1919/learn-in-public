@@ -11,7 +11,7 @@ It also intimidates me, which is why I think I should try it.
 
 Part of what holds me back from "learning in public" is that it takes me too
 long to polish my thoughts to a state where I'm comfortable sharing them. As a
-result, there's often too much inertia when it comes to sharing any writing.
+result, there's often too much inertia for sharing my writing.
 
 As a catalyst, I might have to just be more comfortable with publishing
 unstructured thoughts.
