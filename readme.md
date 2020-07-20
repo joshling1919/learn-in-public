@@ -9,17 +9,17 @@ It also intimidates me, which is why I think I should try it.
 
 ## Ideas for how to do this
 
-Part of what holds me back from "learning in public" is that I don't like
-showing my unstructured/unpolished thoughts. This is likely rooted in my fear of
-coming off as stupid or ignorant.
+Part of what holds me back from "learning in public" is that it takes me too
+long to structure and polish my thoughts to a state where I'm comfortable
+sharing them. As a result, there's often too much inertia when it comes to
+sharing any sort of writing.
 
-To kick that fear, I might have to just be more comfortable with unstructured
-thoughts being out in the open. Otherwise, if I keep waiting for thoughts to
-become structured, then I'll likely end up not writing/publishing anything.
+I might have to just be more comfortable with sharing unstructured
+thoughts as a catalyst.
 
-To start, I'll have an unstructured series of `Today I Learned (TIL)` notes,
-where I jot down things that I'm learning each day. Then, each week, I'll try to
-sum up those unstructured thoughts into a more thought-out post.
+To start, I'll have an series of unstructured `Today I Learned (TIL)` notes,
+where I quickly jot down things that I'm learning each day. Then, each week,
+I'll try to sum up those unstructured thoughts into a more thought-out post.
 
 - [[today-i-learned]]
 
