@@ -16,7 +16,8 @@ result, there's often too much inertia when it comes to sharing any writing.
 As a catalyst, I might have to just be more comfortable with publishing
 unstructured thoughts.
 
-To start, I'll have a series of unstructured [[today-i-learned]] notes,
+To start, I'll have a series of unstructured [[today-i-learned]] notes (inspired
+by [https://github.com/jbranchaud/til](https://github.com/jbranchaud/til)),
 where I quickly jot down things that I'm learning each day. Then, each week,
 I'll try to sum up those unstructured thoughts into a more thought-out post.
 
