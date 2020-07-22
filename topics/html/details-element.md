@@ -10,13 +10,15 @@
   [Create a collapsible block in an HTML doc][collapsible] by using the
   `<details>` and `<summary>` elements:
 
-  ```HTML
+  ```html
+
   <details>
     <summary>Expandable title!</summary>
     <!-- space required here -->
 
     content inside of the collapsible block
   </details>
+
   ```
 
   The above HTML ends up looking like this:
