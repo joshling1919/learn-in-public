@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.codepen {
+  margin-bottom: 15px;
+}
+
 details {
   background: lightyellow;
   margin: 20px 0px;
