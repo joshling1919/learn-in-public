@@ -1,4 +1,4 @@
-# <details> & <summary>
+# details and summary elements
 
 ## References
 
