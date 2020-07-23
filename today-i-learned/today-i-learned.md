@@ -3,145 +3,16 @@
 This is a series of unstructured notes where I quickly jot down things that I'm
 learning each day.
 
-## References
-
-<details>
-  <summary>2020-07-22</summary>
-
-  # [[2020-07-22]]
-
-  ## [[details-element]] 
-
-  [Create a collapsible block in an HTML doc][collapsible] by using the
-  `<details>` and `<summary>` elements:
-
-  ```html
-
-  <details>
-    <summary>Expandable title!</summary>
-    <!-- space required here -->
-
-    content inside of the collapsible block
-  </details>
-  
-  ```
-
-  The above HTML ends up looking like this:
-
-  <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="joshling1919" data-slug-hash="QWyYVbQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="collapsible HTML block">
-    <span>See the Pen <a href="https://codepen.io/joshling1919/pen/QWyYVbQ">
-    collapsible HTML block</a> by Joshua Ling (<a href="https://codepen.io/joshling1919">@joshling1919</a>)
-    on <a href="https://codepen.io">CodePen</a>.</span>
-  </p>
-  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
-
-  > Note: to implement this behavior inside of markdown documents in Github pages,
-  > [add a _config.yml][config] file inside of the github repo and add `markdown:
-  > CommonMarkGhPages`.
-
-  [config]: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489
-  [collapsible]: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
-
-</details>
-
-<details>
-  <summary>2020-07-21</summary>
-
-  # [[2020-07-21]]
-
-  ## [[ssl]]
-
-  Airbrake stopped working for a Rails project. Whenever a call is made to
-  Airbrake, the following error happens: 
-
-  ```shell
-  [Airbrake] Unable to contact the
-  Airbrake server. HTTP Error=SSL_connect returned=1 errno=0 state=error:
-  certificate verify failed.
-  ```
-
-  According to [this blog
-  post](https://blog.engineyard.com/ruby-ssl-error-certificate-verify-failed):
-
-  > HTTPS is secured using an SSL certificate. Secure Sockets Layer, or SSL, is the
-  > security protocol that provides secure communication between two machines.
-
-  With SSL, `machine 1` looks at the SSL certificate of `machine 2`. `Machine 1`
-  uses numbers in `machine 2`'s certificate to encrypt messages that it sends to
-  `machine 2`.
-
-  When `machine 1` connects to `machine 2`, `machine 1` has to verify that
-  `machine 2`'s certificate is valid. The SSL certificate is signed by a
-  Certificate Authority to prove its authenticity. Apparently the certificate
-  authorities are then also signed by another authority, and this goes on until it
-  reaches a root certificate.
-
-  In the case of our error, this either happened because our machine's certificate
-  has issues or because Airbrake's has issues.
-
-  It's likely our machine's certificate. The blog post offered two solutions:
-
-  1. Fix machine certificates.
-  2. Fix by updating gems. Apparently some ruby gems specify their own Certificate
-    Authority certificates, like ActiveMerchant.
-
-  ### [[open-questions]]
-
-  Here are the things I still don't get:
-  - [ ] If anyone can just look at `machine 2`'s certificate, then how does `machine
-    2` know who to trust, and how can it be sure that `machine 1` is actually who
-    it says it is? (The blog post mentioned SSL handshake but did not go into
-    details.) 
-
-</details>
-
-<details>
-  <summary>2020-07-20</summary>
-
-  # [[2020-07-20]]
-
-  ## [[deep-work]]
-
-  According to [this blog
-  post](https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/),
-  it takes approximately 25 minutes of focus without distraction to reach a state
-  of flow.
-
-  For a while, I've rationalized that as long as I'm [not having a "zero
-  day"](https://medium.com/@fayadh56/the-concept-of-no-more-zero-days-and-why-motivation-is-fleeting-9c1c307f8948),
-  then that's good enough.
-
-  While a little progress is better than no progress, it's foolish to become
-  satisfied with a state of consistent little progress.
-
-  For example, I used to think that 10 minutes of practicing Rust each day is good
-  enough, as long as I do it for a sustained period of time. If I end up doing 10
-  minutes per day for six months, that adds up to ~30 hours. That time would
-  be infinitely more productive if I instead broke it up into six blocks of
-  uninterrupted, 4-hour, deep dives into Rust like the author of that blog
-  suggested.
-
-  ## [[vs-code]]
-
-  I've been trying to turn on auto text wrap while I'm editing markdown in VS
-  Code.
-
-  Previously, I had used the [`Rewrap`
-  extension](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) to
-  manually rewrap paragraphs, but had no idea that it also had the ability to
-  [auto-wrap](https://github.com/stkb/Rewrap/wiki/Auto-wrap).
-</details>
+- [[2020-07-23]]
+- [[2020-07-22]]
+- [[2020-07-21]]
+- [[2020-07-20]]
 
 
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
+[2020-07-23]: 2020-07/2020-07-23 "2020-07-23"
 [2020-07-22]: 2020-07/2020-07-22 "2020-07-22"
-[details-element]: ../topics/html/details-element "details and summary elements"
 [2020-07-21]: 2020-07/2020-07-21 "2020-07-21"
-[ssl]: ../topics/web/ssl "Secure Sockets Layer"
-[open-questions]: ../misc/open-questions "Open Questions"
 [2020-07-20]: 2020-07/2020-07-20 "2020-07-20"
-[deep-work]: ../topics/productivity/deep-work "Deep Work"
-[vs-code]: ../topics/tools/vs-code "VS Code"
 [//end]: # "Autogenerated link references"
